@@ -75,3 +75,13 @@ PEON = Peasant Equivalent Opponent Number
 | dark champion       | 4    | 250   | 400
 | black dragon        | 4    | 309   | 324
 | megadragon          | 4    | 376   | 266
+
+## Random Army Ratings
+
+| Random Army Type | Min PEONS | Max PEONS |
+| ---------------- | --------- | --------- |
+| Level 1 Monster  | 62        | 93
+| Level 2 Monster  | 152       | 228
+| Level 3 Monster  | 370       | 555
+| Level 4 Monster  | 913       | 1421
+| Random Monster   | 370       | 555

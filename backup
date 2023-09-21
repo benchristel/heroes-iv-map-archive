@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cp ~/.wine/drive_c/GOG\ Games/HoMM\ 4\ Complete/maps/AA\ Emperor\'s\ Treasure\ Test.h4c ./AA\ The\ Emperor\'s\ Treasure.h4c

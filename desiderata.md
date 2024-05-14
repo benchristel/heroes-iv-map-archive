@@ -1,5 +1,12 @@
 # Map Desiderata
 
+## Problems With Vanilla H4
+
+- Managing many towns and armies is annoying
+- Optimal play involves micromanaging creature dwellings on the adventure map
+  (via caravans / camping)
+- Magic resistance is OP
+
 ## Goals
 
 - Exploration
@@ -29,10 +36,25 @@
 - Armies without heroes can't move through certain border gates
 - Random monsters attack armies without heroes
 - Heroes who know Town Gate
-- Reduced creature growth in towns to make the game more hero-focused
+- ~~Reduced creature growth in towns to make the game more hero-focused~~
+  - Not technically possible AFAICT
 - Portals home
 - Scoreboard
 - Emperor's Treasure
 - Oracles
 - Ring of Greater Negation
 - Asymmetrical objectives? (good guys have shielded towns and must win by conquest; bad guys trying to collect artifacts)
+- Creature dwellings continuously revert to "no owner"
+  - makes it infeasible to camp dwellings with small armies
+- Win by capturing 4 towns
+- Progressive dungeons unlocked by keymaster tents
+
+## Scripts
+
+Run `Dwellings.ClearOwner` continuously or daily to prevent dwelling camping.
+Note that multiple creature dwellings can define handlers for this event.
+
+```
+# Dwellings.ClearOwner
+CHANGE OWNER to "No Player"
+```

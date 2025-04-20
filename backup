@@ -1,4 +1,5 @@
 #!/bin/sh
+maps=~/.wine/drive_c/GOG\ Games/HoMM\ 4\ Complete/maps
 
-cp ~/.wine/drive_c/GOG\ Games/HoMM\ 4\ Complete/maps/AA\ Emperor\'s\ Treasure\ Test.h4c ./AA\ The\ Emperor\'s\ Treasure.h4c
-cp ~/.wine/drive_c/GOG\ Games/HoMM\ 4\ Complete/maps/Ben\'s\ Map\ 1.h4c ./Ben\'s\ Map\ 1.h4c
+cp "$maps"/AA\ Emperor\'s\ Treasure\ Test.h4c ./AA\ The\ Emperor\'s\ Treasure.h4c
+cp "$maps"/Ben\'s\ Map\ 1.h4c ./Ben\'s\ Map\ 1.h4c

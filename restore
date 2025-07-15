@@ -1,4 +1,8 @@
 #!/bin/sh
 
-cp ./AA\ The\ Emperor\'s\ Treasure.h4c ~/.wine/drive_c/GOG\ Games/HoMM\ 4\ Complete/maps/AA\ Emperor\'s\ Treasure\ Test.h4c
-cp ./Ben\'s\ Map\ 1.h4c ~/.wine/drive_c/GOG\ Games/HoMM\ 4\ Complete/maps/Ben\'s\ Map\ 1.h4c
+if [ -z "$1" ]; then
+  echo "usage: ./restore FILENAME"
+  exit 1
+fi
+
+cp "$1" "/home/ben/.wine/drive_c/GOG Games/HoMM 4 Complete/maps/"

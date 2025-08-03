@@ -6,6 +6,6 @@ backup() {
 	cp "$maps/$filename" "./$filename"
 }
 
-backup AA\ Emperor\'s\ Treasure\ Test.h4c
 backup Ben\'s\ Map\ 1.h4c
 backup Castles\ of\ Annuvin.h4c
+backup AA\ Battle\ of\ the\ Bards.h4c
